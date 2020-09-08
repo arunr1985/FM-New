@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up report and Test started]]>
+    </line>
+    <line>
+      <![CDATA[Settings done Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Browser started running]]>
+    </line>
+    <line>
+      <![CDATA[Reports Generated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-09-02T13:31:32 IST" name="Suite" finished-at="2020-09-02T13:32:10 IST" duration-ms="37978">
+    <groups>
+    </groups>
+    <test started-at="2020-09-02T13:31:32 IST" name="Test" finished-at="2020-09-02T13:32:10 IST" duration-ms="37978">
+      <class name="com.learnautomation.testcases.LoginTestFB">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestFB@161479c6]" started-at="2020-09-02T13:31:31 IST" name="setUpSuite" finished-at="2020-09-02T13:31:32 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up report and Test started]]>
+            </line>
+            <line>
+              <![CDATA[Settings done Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTestFB@161479c6]" started-at="2020-09-02T13:31:32 IST" name="setup" finished-at="2020-09-02T13:31:50 IST" duration-ms="17356" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser started running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTestFB@161479c6]" started-at="2020-09-02T13:31:50 IST" name="loginApp" finished-at="2020-09-02T13:32:07 IST" duration-ms="17253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestFB@161479c6]" started-at="2020-09-02T13:32:07 IST" name="teardownmethod" finished-at="2020-09-02T13:32:08 IST" duration-ms="1326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestFB.loginApp()[pri:0, instance:com.learnautomation.testcases.LoginTestFB@161479c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Reports Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTestFB@161479c6]" started-at="2020-09-02T13:32:08 IST" name="tearDown" finished-at="2020-09-02T13:32:10 IST" duration-ms="1975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTestFB -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
